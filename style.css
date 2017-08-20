@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display');
+
+body {
+  width: 80%;
+  margin: 10vw auto;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 10vw;
+}
+
+.subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 40em) {
+  body {
+  width: 50%;
+  }
+
+  .heading {
+    font-size: 6vw;
+  }
+
+  .subheading {
+    font-size: 1.75vw;
+  }
+}
